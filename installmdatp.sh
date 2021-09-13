@@ -6,4 +6,4 @@ sudo rpm --import http://packages.microsoft.com/keys/microsoft.asc
 yum makecache
 sudo yum install mdatp
 yum repolist
-sudo yum --enablerepo=packages-microsoft-com-prod install mdatp
+sudo yum --enablerepo=packages-microsoft-com-prod install mdatp -y
